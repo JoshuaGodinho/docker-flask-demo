@@ -17,7 +17,7 @@ pipeline {
         }
         stage('push image') {
             steps{
-                sh 'docker push ylmt/flaskapp:$BUILD_NUMBER'
+                sh 'docker push joshuagodinho2209/docker-hub:$BUILD_NUMBER'
             }
         }
 }
